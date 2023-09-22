@@ -11,9 +11,9 @@ public class Ejercicio4 {
 		Scanner sc = new Scanner(System.in);
 		//Instrucciones
 		System.out.println("¿Que notas has sacado?");
-		nota1 = sc.nextInt();
+		nota1 =sc.nextInt();
 		nota2 =sc.nextInt();
-		//
+		//Ponemos el tipo primitivo float para que salga en la consola un decimal
 		media = (float) (nota1+nota2)/2;
 		System.out.println("Entonces has sacado un " + media);
 		sc.close();
