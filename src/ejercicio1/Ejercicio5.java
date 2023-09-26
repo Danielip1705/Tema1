@@ -13,9 +13,11 @@ public class Ejercicio5 {
 		//Ponemos la formula matematica de la circunferencia en cada identificador
 	    double area = 2* Math.PI *radio;
 		double longitud = Math.pow(radio, 2);
-		//Imprimimos la solucion del numero que hemos puesto como radio
-		System.out.println("El area seria" + area);
+		//Imprimimos la solución del número que hemos puesto como radio
+		System.out.println("El area seria " + area);
+		
 		System.out.println("Y su longitud es " + longitud);
+		//cerramos el scanner
 	sc.close();
 	}
 

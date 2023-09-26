@@ -9,9 +9,9 @@ public class Ejercicio7 {
 		int numtef;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Dime tu nombre");
-		nombre = sc.next();
+		nombre = sc.nextLine();
 		System.out.println("Dime tu calle");
-		calle = sc.next();
+		calle = sc.nextLine();
 		System.out.println("Dime tu numero de telefono");
 		numtef = sc.nextInt();
 		String rojo = "\033[31m";
